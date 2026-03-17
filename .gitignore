@@ -32,7 +32,6 @@ data/
 # PLUMED / analysis outputs
 # ================================
 
-COLVAR
 HILLS
 *.dat
 *.out
