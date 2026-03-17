@@ -1,0 +1,53 @@
+# ================================
+# MD simulation large data
+# ================================
+
+# Trajectories
+*.xtc
+*.trr
+*.dcd
+
+# Coordinates / structures (large)
+*.gro
+*.pdb
+*.cif
+
+# Energies / logs
+*.edr
+*.log
+
+# Checkpoints / temporary
+*.cpt
+*.tpr
+
+# ================================
+# Ignore all data directories
+# ================================
+
+data/
+*/data/
+**/data/
+
+# ================================
+# PLUMED / analysis outputs
+# ================================
+
+COLVAR
+HILLS
+*.dat
+*.out
+
+# ================================
+# Python / Jupyter
+# ================================
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ================================
+# System files
+# ================================
+
+.DS_Store
+Thumbs.db
