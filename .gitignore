@@ -35,6 +35,8 @@ data/
 HILLS
 *.dat
 *.out
+bck.*
+COLVAR*
 
 # ================================
 # Python / Jupyter
